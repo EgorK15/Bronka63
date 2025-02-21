@@ -33,8 +33,7 @@ function ObjectDetailsView({
         <p>{object.number}</p>
       </DialogHeader>
       <DialogBody>
-        <div className="mb-6">
-          <p className="text-lg font-medium text-gray-900">{object.number}</p>
+        <div className="mb-6 text-center">
           <p className="text-md text-gray-700">{object.desc}</p>
         </div>
         <div className="inline-flex rounded-md right-0 bottom-0 p-2 absolute">

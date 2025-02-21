@@ -4,15 +4,6 @@
       "id": "a1b2",
       "categoryId": "a191",
       "number": "203",
-      "desc": "СВОбодно",
-      "time":"8:00",
-      "date":"Fri Feb 21 2025",
-      "colour":"red"
-    },
-    {
-      "id": "a1b2",
-      "categoryId": "a191",
-      "number": "203",
       "desc": "ЗАНЯТО",
       "time":"8:00",
       "date":"Sat Feb 22 2025",
@@ -22,9 +13,18 @@
       "id": "a1b2",
       "categoryId": "a191",
       "number": "203",
-      "desc": "СВОбодно",
+      "desc": "СВОБОДНО",
       "date":"Fri Feb 21 2025",
       "time":"11:30",
+      "colour":"green"
+    },
+    {
+      "id": "a1b2",
+      "categoryId": "a191",
+      "number": "203",
+      "desc": "СВОБОДНО",
+      "date":"Fri Feb 21 2025",
+      "time":"8:00",
       "colour":"green"
     },
     {
@@ -34,7 +34,7 @@
       "colour":"green",
       "date":"Fri Feb 21 2025",
       "time":"8:00",
-      "desc": "СВОбодно"
+      "desc": "СВОБОДНО"
     },
     {
       "id": "b2c3",
@@ -43,7 +43,7 @@
       "colour":"green",
       "date":"Sat Feb 22 2025",
       "time":"8:00",
-      "desc": "СВОбодно"
+      "desc": "СВОБОДНО"
     },
     {
       "id": "c3d4",
@@ -52,7 +52,7 @@
       "colour":"green",
       "date":"Fri Feb 21 2025",
       "time":"8:00",
-      "desc": "СВОбодно"
+      "desc": "СВОБОДНО"
     },
     {
       "id": "c3d4",
@@ -61,7 +61,7 @@
       "colour":"red",
       "date":"Sat Feb 22 2025",
       "time":"8:00",
-      "desc": "СВОбодно"
+      "desc": "ЗАНЯТО"
     },
     {
       "id": "d4e5",
@@ -70,7 +70,7 @@
       "colour":"green",
       "date":"Fri Feb 21 2025",
       "time":"8:00",
-      "desc": "СВОбодно"
+      "desc": "СВОБОДНО"
     },
     {
       "id": "d4e5",
@@ -79,7 +79,7 @@
       "colour":"green",
       "date":"Sat Feb 22 2025",
       "time":"8:00",
-      "desc": "СВОбодно"
+      "desc": "СВОБОДНО"
     },
     {
       "id": "e5f6",
@@ -88,7 +88,7 @@
       "colour":"green",
       "date":"Fri Feb 21 2025",
       "time":"8:00",
-      "desc": "СВОбодно"
+      "desc": "СВОБОДНО"
     },
     {
       "id": "e5f6",
@@ -97,16 +97,16 @@
       "colour":"green",
       "date":"Sat Feb 22 2025",
       "time":"8:00",
-      "desc": "СВОбодно"
+      "desc": "СВОБОДНО"
     },
     {
       "id": "f6g7",
       "categoryId": "d21e",
       "number": "208",
-      "colour":"colour",
+      "colour":"green",
       "date":"Fri Feb 21 2025",
       "time":"8:00",
-      "desc": "СВОбодно"
+      "desc": "СВОБОДНО"
     },
     {
       "id": "f6g7",
@@ -124,7 +124,7 @@
       "colour":"green",
       "date":"Fri Feb 21 2025",
       "time":"8:00",
-      "desc": "СВОбодно"
+      "desc": "СВОБОДНО"
     },
     {
       "id": "f4g7",
@@ -133,7 +133,7 @@
       "colour":"green",
       "date":"Sat Feb 22 2025",
       "time":"8:00",
-      "desc": "СВОбодно"
+      "desc": "СВОБОДНО"
     },
     {
       "id": "f3g7",

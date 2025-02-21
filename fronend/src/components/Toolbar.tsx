@@ -28,7 +28,7 @@ function Toolbar({startDate, setStartDate,startTime,setStartTime,setStringDate,s
           'width':'50px',
             'height':'25px',
               'background': 'green'}}/>
-        -СВОбодно
+        -СВОБОДНО
         <div style={{
           'width':'50px',
             'height':'25px',
