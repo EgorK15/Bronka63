@@ -72,7 +72,7 @@ function ObjectEditView({
         <input
           type="text"
           className="w-full mb-2 p-2 rounded text-black"
-          placeholder={object.name}
+          placeholder={object.number}
           value={editedObjectName}
           disabled
           onChange={(e) => setEditedObjectName(e.target.value)}
