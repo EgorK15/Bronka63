@@ -1,0 +1,90 @@
+{
+  "objects": [
+    {
+      "id": "a1b2",
+      "categoryId": "a191",
+      "number": "203",
+      "desc": "Your go-to spot for the latest in electronics and appliances"
+    },
+    {
+      "id": "b2c3",
+      "categoryId": "e928",
+      "number": "204",
+      "desc": "A perfect place for enjoying crispy fried chicken and sides"
+    },
+    {
+      "id": "c3d4",
+      "categoryId": "e928",
+      "number": "209",
+      "desc": "Classic fast-food chain for burgers, fries, and quick meals"
+    },
+    {
+      "id": "d4e5",
+      "categoryId": "d21e",
+      "number": "205",
+      "desc": "Swiss luxury watches for discerning customers"
+    },
+    {
+      "id": "e5f6",
+      "categoryId": "d21e",
+      "number": "207",
+      "desc": "High-end bags, luggage, and accessories"
+    },
+    {
+      "id": "f6g7",
+      "categoryId": "d21e",
+      "number": "208",
+      "desc": " Italian luxury fashion for trendsetters"
+    },
+    {
+      "id": "f4g7",
+      "categoryId": "d21e",
+      "number": "202",
+      "desc": " Italian luxury fashion for trendsetters"
+    },
+    {
+      "id": "f3g7",
+      "categoryId": "d21e",
+      "number": "Туалет",
+      "desc": " Italian luxury fashion for trendsetters"
+    }
+  ],
+  "categories": [
+    {
+      "id": "52f1",
+      "name": "Retail"
+    },
+    {
+      "id": "e928",
+      "name": "Food"
+    },
+    {
+      "id": "58a9",
+      "nambe": "Services"
+    },
+    {
+      "id": "16be",
+      "nambe": "Health & Beauty"
+    },
+    {
+      "id": "d21e",
+      "name": "Luxury Goods"
+    },
+    {
+      "id": "a191",
+      "name": "Electronics"
+    },
+    {
+      "id": "87b0",
+      "nambe": "Fashion"
+    },
+    {
+      "id": "17b0",
+      "name": "Sanitary"
+    },
+    {
+      "id": "e753",
+      "name": "Entrace"
+    }
+  ]
+}
