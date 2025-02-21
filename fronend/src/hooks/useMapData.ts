@@ -3,7 +3,7 @@ import { useState, useEffect, Dispatch, SetStateAction } from "react";
 import { getObjects, getCategories } from "../services/mapServices";
 import { Category, ObjectItem } from "@/utils/types";
 
-function useMapData(date: Date|null, setStartDate: Dispatch<SetStateAction<Date>>) {
+function useMapData(date: string|null|undefined, setStartDate: Dispatch<SetStateAction<string|undefined>>, setStartTime: Dispatch<SetStateAction<string>>,time:string) {
   const [objects, setObjects] = useState<ObjectItem[]>([]);
   const [categories, setCategories] = useState<Category[]>([]);
   const fetchData = async () => {
@@ -16,7 +16,9 @@ function useMapData(date: Date|null, setStartDate: Dispatch<SetStateAction<Date>
           (cat) => cat.id === obj.categoryId
         )?.name;
       });
-      setStartDate(new Date());
+      const somedate=new Date()
+      setStartDate(somedate.toDateString());
+      setStartTime("8:00");
       setObjects(objectsData);
       setCategories(categoriesData);
     } catch (error) {
@@ -28,7 +30,7 @@ function useMapData(date: Date|null, setStartDate: Dispatch<SetStateAction<Date>
     fetchData();
   }, []);
 
-  return { objects, categories, date,refetchData: fetchData };
+  return { objects, categories, date,time,refetchData: fetchData };
 }
 
 export default useMapData;

@@ -1,23 +1,21 @@
 import { NavigationContext } from "@/pages/Map";
 import { NavigationContextType } from "@/utils/types";
-import { useContext, useState } from "react";
+import { useContext} from "react";
 import { isDesktop } from "react-device-detect";
 import DesktopRouteDetails from "./DesktopRouteDetails";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { Dispatch, SetStateAction } from 'react';
-type Props = { startDate: Date; setStartDate: Dispatch<SetStateAction<Date>> };
-
-function Toolbar({startDate, setStartDate}:Props) {
-  const [time,setTime]=useState();
+type Props = { startDate: Date; startTime:string;setStartDate: Dispatch<SetStateAction<Date>>;setStartTime: Dispatch<SetStateAction<string>>;setStringDate:Dispatch<SetStateAction<string|undefined>>;stringDate:string|undefined};
+function Toolbar({startDate, setStartDate,startTime,setStartTime,setStringDate,stringDate}:Props) { 
   const Example = () => {
-    return <DatePicker selected={startDate} onChange={(date) => date && setStartDate(date)} />;
+    return <DatePicker selected={startDate} onChange={(date) => {date && setStartDate(date);setStringDate(date?.toDateString())}} />;
   };
   const { navigation } = useContext(NavigationContext) as NavigationContextType;
   return (
     <div className="flex space-x-1 mb-4 h-12 relative">
       <Example/>
-      <select name="time" id="cars">
+      <select name="time" id="cars" onChange={(e)=>{setStartTime(e.target.value)}}>
           <option value="8:00">8:00</option>
           <option value="11:30">11:30</option>
           <option value="13:30">13:30</option>

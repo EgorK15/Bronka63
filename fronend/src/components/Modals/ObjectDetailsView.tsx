@@ -7,13 +7,26 @@ interface ObjectDetailsViewProps {
   handleEditClick: () => void;
   objectNavigation: () => void;
 }
-
+interface ButtonProps {
+  isOpen:boolean;
+  objectNavigation: () => void;
+}
+function Button({isOpen,objectNavigation}:ButtonProps){
+  if(isOpen)return(<button
+    type="button"
+    className="text-white bg-blue-500 hover:bg-blue-800 hover:ring-2 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center"
+    onClick={objectNavigation}
+  >
+    Отправить заявку
+  </button>)
+}
 function ObjectDetailsView({
   object,
   handleEditClick,
   objectNavigation,
 }: ObjectDetailsViewProps) {
   const isEditable = import.meta.env.PROD ? false : true;
+  const isOpen=object.colour==='green';
   return (
     <>
       <DialogHeader>
@@ -25,13 +38,7 @@ function ObjectDetailsView({
           <p className="text-md text-gray-700">{object.desc}</p>
         </div>
         <div className="inline-flex rounded-md right-0 bottom-0 p-2 absolute">
-          <button
-            type="button"
-            className="text-white bg-blue-500 hover:bg-blue-800 hover:ring-2 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center"
-            onClick={objectNavigation}
-          >
-            <FiNavigation />
-          </button>
+          <Button isOpen={isOpen} objectNavigation={objectNavigation}/>
         </div>
         {isEditable && (
           <button
@@ -39,7 +46,6 @@ function ObjectDetailsView({
             onClick={handleEditClick}
             autoFocus={false}
           >
-            Edit (not working anymore)
           </button>
         )}
       </DialogBody>

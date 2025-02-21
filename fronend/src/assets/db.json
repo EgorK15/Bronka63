@@ -4,49 +4,145 @@
       "id": "a1b2",
       "categoryId": "a191",
       "number": "203",
-      "desc": "Your go-to spot for the latest in electronics and appliances"
+      "desc": "СВОбодно",
+      "time":"8:00",
+      "date":"Fri Feb 21 2025",
+      "colour":"red"
+    },
+    {
+      "id": "a1b2",
+      "categoryId": "a191",
+      "number": "203",
+      "desc": "ЗАНЯТО",
+      "time":"8:00",
+      "date":"Sat Feb 22 2025",
+      "colour":"red"
+    },
+    {
+      "id": "a1b2",
+      "categoryId": "a191",
+      "number": "203",
+      "desc": "СВОбодно",
+      "date":"Fri Feb 21 2025",
+      "time":"11:30",
+      "colour":"green"
     },
     {
       "id": "b2c3",
       "categoryId": "e928",
       "number": "204",
-      "desc": "A perfect place for enjoying crispy fried chicken and sides"
+      "colour":"green",
+      "date":"Fri Feb 21 2025",
+      "time":"8:00",
+      "desc": "СВОбодно"
+    },
+    {
+      "id": "b2c3",
+      "categoryId": "e928",
+      "number": "204",
+      "colour":"green",
+      "date":"Sat Feb 22 2025",
+      "time":"8:00",
+      "desc": "СВОбодно"
     },
     {
       "id": "c3d4",
       "categoryId": "e928",
       "number": "209",
-      "desc": "Classic fast-food chain for burgers, fries, and quick meals"
+      "colour":"green",
+      "date":"Fri Feb 21 2025",
+      "time":"8:00",
+      "desc": "СВОбодно"
+    },
+    {
+      "id": "c3d4",
+      "categoryId": "e928",
+      "number": "209",
+      "colour":"red",
+      "date":"Sat Feb 22 2025",
+      "time":"8:00",
+      "desc": "СВОбодно"
     },
     {
       "id": "d4e5",
       "categoryId": "d21e",
       "number": "205",
-      "desc": "Swiss luxury watches for discerning customers"
+      "colour":"green",
+      "date":"Fri Feb 21 2025",
+      "time":"8:00",
+      "desc": "СВОбодно"
+    },
+    {
+      "id": "d4e5",
+      "categoryId": "d21e",
+      "number": "205",
+      "colour":"green",
+      "date":"Sat Feb 22 2025",
+      "time":"8:00",
+      "desc": "СВОбодно"
     },
     {
       "id": "e5f6",
       "categoryId": "d21e",
       "number": "207",
-      "desc": "High-end bags, luggage, and accessories"
+      "colour":"green",
+      "date":"Fri Feb 21 2025",
+      "time":"8:00",
+      "desc": "СВОбодно"
+    },
+    {
+      "id": "e5f6",
+      "categoryId": "d21e",
+      "number": "207",
+      "colour":"green",
+      "date":"Sat Feb 22 2025",
+      "time":"8:00",
+      "desc": "СВОбодно"
     },
     {
       "id": "f6g7",
       "categoryId": "d21e",
       "number": "208",
-      "desc": " Italian luxury fashion for trendsetters"
+      "colour":"colour",
+      "date":"Fri Feb 21 2025",
+      "time":"8:00",
+      "desc": "СВОбодно"
+    },
+    {
+      "id": "f6g7",
+      "categoryId": "d21e",
+      "number": "208",
+      "colour":"red",
+      "date":"Sat Feb 22 2025",
+      "time":"8:00",
+      "desc": "ЗАНЯТО"
     },
     {
       "id": "f4g7",
       "categoryId": "d21e",
       "number": "202",
-      "desc": " Italian luxury fashion for trendsetters"
+      "colour":"green",
+      "date":"Fri Feb 21 2025",
+      "time":"8:00",
+      "desc": "СВОбодно"
+    },
+    {
+      "id": "f4g7",
+      "categoryId": "d21e",
+      "number": "202",
+      "colour":"green",
+      "date":"Sat Feb 22 2025",
+      "time":"8:00",
+      "desc": "СВОбодно"
     },
     {
       "id": "f3g7",
       "categoryId": "d21e",
       "number": "Туалет",
-      "desc": " Italian luxury fashion for trendsetters"
+      "colour":"green",
+      "date":"Fri Feb 21 2025",
+      "time":"8:00",
+      "desc": "ЗАНЯТО"
     }
   ],
   "categories": [

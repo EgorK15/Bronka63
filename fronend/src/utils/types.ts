@@ -1,10 +1,11 @@
-
-
 export interface ObjectItem {
   id: string;
   number: string;
+  date:Date|null;
+  time:string;
   desc: string;
   categoryId: string;
+  colour: string;
   categoryName?: string;
 }
 export interface Category {
@@ -32,8 +33,9 @@ export interface NavigationContextType {
 
 export interface MapDataContextType {
   objects: ObjectItem[];
-  date: Date|null;
+  date: string|null|undefined;
   categories: Category[];
+  time:string|null;
   beacons?: Beacon[];
   refetchData: () => void;
 }

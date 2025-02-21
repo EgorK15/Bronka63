@@ -16,7 +16,7 @@ function Paths() {
         }
         return null;
       })}
-      <path id="navigation-route" className="path" d="" fill="none" />
+      <path id="navigation-route" className="path" d="" fill="black" />
     </g>
   );
 }
