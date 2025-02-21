@@ -24,6 +24,16 @@ function Toolbar({startDate, setStartDate,startTime,setStartTime,setStringDate,s
           <option value="18:45">18:45</option>
           <option value="20:25">20:25</option>
         </select>
+        <div style={{
+          'width':'50px',
+            'height':'25px',
+              'background': 'green'}}/>
+        -СВОбодно
+        <div style={{
+          'width':'50px',
+            'height':'25px',
+              'background': 'red'}}/>
+        -ЗАНЯТО
       {navigation.end && isDesktop && <DesktopRouteDetails />}
     </div>
   );
