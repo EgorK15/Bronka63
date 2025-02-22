@@ -1,0 +1,186 @@
+{
+  "objects": [
+    {
+      "id": "a1b2",
+      "categoryId": "a191",
+      "number": "203",
+      "desc": "ЗАНЯТО",
+      "time":"8:00",
+      "date":"Sat Feb 22 2025",
+      "colour":"red"
+    },
+    {
+      "id": "a1b2",
+      "categoryId": "a191",
+      "number": "203",
+      "desc": "СВОБОДНО",
+      "date":"Fri Feb 21 2025",
+      "time":"11:30",
+      "colour":"green"
+    },
+    {
+      "id": "a1b2",
+      "categoryId": "a191",
+      "number": "203",
+      "desc": "СВОБОДНО",
+      "date":"Fri Feb 21 2025",
+      "time":"8:00",
+      "colour":"green"
+    },
+    {
+      "id": "b2c3",
+      "categoryId": "e928",
+      "number": "204",
+      "colour":"green",
+      "date":"Fri Feb 21 2025",
+      "time":"8:00",
+      "desc": "СВОБОДНО"
+    },
+    {
+      "id": "b2c3",
+      "categoryId": "e928",
+      "number": "204",
+      "colour":"green",
+      "date":"Sat Feb 22 2025",
+      "time":"8:00",
+      "desc": "СВОБОДНО"
+    },
+    {
+      "id": "c3d4",
+      "categoryId": "e928",
+      "number": "209",
+      "colour":"green",
+      "date":"Fri Feb 21 2025",
+      "time":"8:00",
+      "desc": "СВОБОДНО"
+    },
+    {
+      "id": "c3d4",
+      "categoryId": "e928",
+      "number": "209",
+      "colour":"red",
+      "date":"Sat Feb 22 2025",
+      "time":"8:00",
+      "desc": "ЗАНЯТО"
+    },
+    {
+      "id": "d4e5",
+      "categoryId": "d21e",
+      "number": "205",
+      "colour":"green",
+      "date":"Fri Feb 21 2025",
+      "time":"8:00",
+      "desc": "СВОБОДНО"
+    },
+    {
+      "id": "d4e5",
+      "categoryId": "d21e",
+      "number": "205",
+      "colour":"green",
+      "date":"Sat Feb 22 2025",
+      "time":"8:00",
+      "desc": "СВОБОДНО"
+    },
+    {
+      "id": "e5f6",
+      "categoryId": "d21e",
+      "number": "207",
+      "colour":"green",
+      "date":"Fri Feb 21 2025",
+      "time":"8:00",
+      "desc": "СВОБОДНО"
+    },
+    {
+      "id": "e5f6",
+      "categoryId": "d21e",
+      "number": "207",
+      "colour":"green",
+      "date":"Sat Feb 22 2025",
+      "time":"8:00",
+      "desc": "СВОБОДНО"
+    },
+    {
+      "id": "f6g7",
+      "categoryId": "d21e",
+      "number": "208",
+      "colour":"green",
+      "date":"Fri Feb 21 2025",
+      "time":"8:00",
+      "desc": "СВОБОДНО"
+    },
+    {
+      "id": "f6g7",
+      "categoryId": "d21e",
+      "number": "208",
+      "colour":"red",
+      "date":"Sat Feb 22 2025",
+      "time":"8:00",
+      "desc": "ЗАНЯТО"
+    },
+    {
+      "id": "f4g7",
+      "categoryId": "d21e",
+      "number": "202",
+      "colour":"green",
+      "date":"Fri Feb 21 2025",
+      "time":"8:00",
+      "desc": "СВОБОДНО"
+    },
+    {
+      "id": "f4g7",
+      "categoryId": "d21e",
+      "number": "202",
+      "colour":"green",
+      "date":"Sat Feb 22 2025",
+      "time":"8:00",
+      "desc": "СВОБОДНО"
+    },
+    {
+      "id": "f3g7",
+      "categoryId": "d21e",
+      "number": "Туалет",
+      "colour":"green",
+      "date":"Fri Feb 21 2025",
+      "time":"8:00",
+      "desc": "ЗАНЯТО"
+    }
+  ],
+  "categories": [
+    {
+      "id": "52f1",
+      "name": "Retail"
+    },
+    {
+      "id": "e928",
+      "name": "Food"
+    },
+    {
+      "id": "58a9",
+      "nambe": "Services"
+    },
+    {
+      "id": "16be",
+      "nambe": "Health & Beauty"
+    },
+    {
+      "id": "d21e",
+      "name": "Luxury Goods"
+    },
+    {
+      "id": "a191",
+      "name": "Electronics"
+    },
+    {
+      "id": "87b0",
+      "nambe": "Fashion"
+    },
+    {
+      "id": "17b0",
+      "name": "Sanitary"
+    },
+    {
+      "id": "e753",
+      "name": "Entrace"
+    }
+  ]
+}
