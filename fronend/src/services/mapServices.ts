@@ -3,14 +3,14 @@ import { Beacon, Category, ObjectItem } from "@/utils/types";
 import apiService from "./apiService";
 export async function getObjects(): Promise<ObjectItem[]> {
   try {
-    const response = await apiService.get("/objects");
+    const response = await apiService.get("/cabinet");
     return response.data as ObjectItem[];
   } catch (error) {
     console.error(
       "Error fetching objects from API, falling back to local db.json:",
       error
     );
-    return db.objects as ObjectItem[];
+    return db.objects as unknown as ObjectItem[];
   }
 }
 

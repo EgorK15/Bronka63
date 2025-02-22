@@ -4,7 +4,7 @@ services:
     container_name: bronka63
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_PASSWORD: password
       POSTGRES_DB: fast_api
       PGDATA: /var/lib/postgresql/data/pgdata
     ports:

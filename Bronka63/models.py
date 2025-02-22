@@ -3,15 +3,24 @@ from pydantic import BaseModel
 import psycopg2
 from psycopg2.extras import RealDictCursor
 from uuid import UUID
-
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
+origins = ["*"]
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 # Подключение к базе данных
 def get_db_connection():
     conn = psycopg2.connect(
         dbname="fast_api",
         user="postgres",
-        password="postgres",
+        password="password",
         host="localhost",
         port = "5433",
         cursor_factory=RealDictCursor
@@ -178,11 +187,11 @@ def create_cabinet(cabinet: Cabinet):
     conn.close()
     return new_cabinet
 
-@app.get("/cabinets/{cabinet_id}", response_model=Cabinet)
-def read_cabinet(cabinet_id: UUID):
+@app.get("/cabinets/{cabinet_number}")
+def read_cabinet(cabinet_number: int):
     conn = get_db_connection()
     cur = conn.cursor()
-    cur.execute("SELECT * FROM Cabinets WHERE id = %s;", (str(cabinet_id),))
+    cur.execute("SELECT * FROM Cabinets WHERE number = %s;", ((cabinet_number),))
     cabinet = cur.fetchone()
     cur.close()
     conn.close()
@@ -243,11 +252,11 @@ def create_pair(pair: Pair):
     conn.close()
     return new_pair
 
-@app.get("/pairs/{pair_id}")
-def read_pair(pair_id: UUID):
+@app.get("/pair/")
+def read_pair(time: str):
     conn = get_db_connection()
     cur = conn.cursor()
-    cur.execute("SELECT * FROM Pairs WHERE id = %s;", (str(pair_id),))
+    cur.execute("SELECT * FROM Pairs WHERE start_time = %s;", (str(time),))
     pair = cur.fetchone()
     cur.close()
     conn.close()

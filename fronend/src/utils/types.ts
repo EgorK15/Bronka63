@@ -1,7 +1,7 @@
 export interface ObjectItem {
   id: string;
   number: string;
-  date:Date|null;
+  date:string|null;
   time:string;
   desc: string;
   categoryId: string;
