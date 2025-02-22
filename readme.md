@@ -1,10 +1,4 @@
-# sleep
- - Проставить правильно логин и пароль постгреса в компоуз файле
- - Поднять бд
-    ```
-    docker-compose pull postgres:latest
-    docker-compose build
-    docker-compose up
-    ```
- - Запустить models.py с правильными данными из компоуз файла 
- - Открыть localhost:8000/docs
+# CondaChockers Hackathon IIC 2025 - сервис для бронирования аудиторий
+ - Рабочий прототип, который мы презентуем - prototype_app
+ - Рабочий прототип интерактивной карты - frontend_map
+ - в backend_old разного рода наработки по бекенду
