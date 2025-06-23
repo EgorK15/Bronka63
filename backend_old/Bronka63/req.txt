@@ -4,3 +4,4 @@ SQLAlchemy[all]
 pydantic-settings[all]
 alembic
 asyncpg
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
